@@ -1,15 +1,43 @@
 body {
-  background: transparent;
-  background-color:#FDF5F5;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: default;
-  display:flex;
+  text-shadow: 1px .5px silver;
+	width: 100vw;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(80deg, #F9A8A8, #FDF9F9, #DEDBF0, #F7E2E2);
+	background-size: 400% 400%;
+	animation: Gradient 15s ease infinite;
+  z-index:-100;
+}
 
+ul.cleanList{
+  list-style-type:none
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+a{
+  color:silver;
+  text-shadow: 1px .5px white;
+}
+
+a:hover{
+  color:powderblue;
+  text-shadow: 1px .5px white, -.5px 3px #F7E2E2;
+}
+
+.bio, .projects{
+  margin-top: 30px;
+margin-left: 15px
 }
 
 .lemon{
@@ -25,6 +53,7 @@ body {
   letter-spacing: 8px;
   color:#a987ff;
   text-shadow: 20px 0px #a987ff;
+  z-index:100;
 }
 
 .cool:hover {
@@ -35,6 +64,6 @@ body {
 @keyframes colors {
   0% {  text-shadow: 20px 0px #a987ff; }
   50%{  text-shadow: 0px 0px #ffffff; }
-  10%{  text-shadow: 19px 0px #a987ff; }
+  100%{  text-shadow: 19px 0px #a987ff; }
 
 }
