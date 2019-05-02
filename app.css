@@ -20,7 +20,6 @@ body {
   -ms-user-select: none;
   user-select: none;
   cursor: default;
-  display:flex;
 
 }
 
@@ -52,7 +51,7 @@ a:hover{
 
 .bio, .projects{
   margin-top: 30px;
-margin-left: 15px
+  margin-left: 15px
 }
 
 .lemon{
