@@ -26,9 +26,10 @@ body {
 div.video{
   position:absolute;
   margin:auto;
-  bottom: 0.1;
+  top: 1;
   right: 0;
   margin-right:50px;
+  margin-top:-100px;
   /* border: 3px dotted #F9A8A8; */
   border-radius:2px;
 }
