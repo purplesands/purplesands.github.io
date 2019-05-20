@@ -20,8 +20,8 @@ body {
   -ms-user-select: none;
   user-select: none;
   cursor: default;
-  font-size: 1rem;
   display:flex;
+  font-family: 'Markazi Text', serif;
 }
 
 div.left{
@@ -29,6 +29,8 @@ div.left{
   position:relative;
   width:30%;
   min-width:20rem;
+  font-size: 1.2em;
+  font-weight:100;
 }
 
 div.video{
@@ -85,6 +87,7 @@ a:hover, span.demo:hover{
   text-shadow: 1px .5px white, -.5px 3px #F7E2E2;
   cursor:pointer;
 }
+
 
 .bio, .projects{
   margin-top: 30px;
