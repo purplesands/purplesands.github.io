@@ -452,7 +452,7 @@ ul.cleanList{
   max-height: 10em;
   box-shadow:none;
 }
-.goop:hover{
+.goop:hover, [data-grid='grid-row']:hover{
   box-shadow:none;
 }
 
