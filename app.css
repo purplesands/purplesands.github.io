@@ -87,6 +87,7 @@ body {
   padding: 0.5em;
   font-family:"Sina Nova", serif;
   margin-bottom:-5em;
+  cursor:default;
 }
 
 
@@ -290,10 +291,15 @@ h1 {
 .douglas3 {
 	color: #E4844A;
 }
-a{
+/* a{
 text-decoration: none;
+} */
+
+a{
+  cursor:pointer
 }
 p {
+  cursor:;
 	line-height: 1.5;
 }
 
