@@ -1,0 +1,24 @@
+{
+  "name": "trees",
+  "version": "1.0.0",
+  "description": "a fun website",
+  "main": "app.js",
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purplesands/trees.git"
+  },
+  "author": "joe mullen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purplesands/trees/issues"
+  },
+  "homepage": "https://github.com/purplesands/trees#readme"
+}

@@ -1,79 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" type="text/css" href="app.css" media="screen" />
-    <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
-    <meta charset="utf-8" />
-    <script src="app.js" charset="utf-8"></script>
-    <link rel="shortcut icon" href="tile.jpg" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="#000000" />
-
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141658751-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-141658751-1');
-    </script>
-
-    <title>joe mullen</title>
+    <meta charset="utf-8">
+    <title>joe mullen | website</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <link rel="shortcut icon" href="rock.png" />
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo|IBM+Plex+Serif:400,600i|Inconsolata|Nunito" rel="stylesheet">
   </head>
+
   <body>
-    <div class="left">
-    <div class="bio links">
-      <p>
-    joe mullen  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <a href="https://github.com/purplesands">git</a> | <a href="mailto:mullenjoe13@gmail.com">contact</a> | <span class="birds demo">birds</span>
+    <header class = "head">
+      <div class="container"><a href="https://github.com/purplesands" target="_blank"><p class="category">⥼git⥽</p></a></div>
+        <h1 class="title" >joe mullen website </h1>
+        <div class="container"><a href="mailto:mullenjoe13@gmail.com"><p class="category">✉ contact ✉</p></a></div>
+    </header>
 
+    <main>
+    	<div class="goop al">
+        <div class="rocktop">
+          <img src="rock.png" alt="rock" id="rock"></img><img src="rock.png" alt="rock" id="rock"></img><img src="rock.png" alt="rock" id="rock"></img>
+        </div>
 
-  </p>
-    <p>is a new york-based web developer creating with</p>
-    <ul class="cleanList">
-    <li>javascript, <li style="text-indent:30px">react.js,</li><li style="text-indent:20px"> redux,</li> <li style="text-indent:45px">ruby on rails,</li><li style="text-indent:60px"> html, css</li></li>
-  </div>
+          <p>joe mullen is a new york-based web developer creating w/ </br>
+          react.js, redux, javascript, jquery, ruby on rails, html, css +more</p>
+        <div class="rocktop">
+          <img src="rock.png" alt="rock" id="rock"></img>
+          <img src="rock.png" alt="rock" id="rock"></img><img src="rock.png" alt="rock" id="rock"></img>
+        </div>
+    	</div>
 
-<div class="projects links">
-  <p style="text-indent:60px">~ ~ ~ ~ ~ ~ ~ ~</p>
-      <ul class="projects cleanList">
-        <li>lemontown</li>
-          <ul class="cleanList">
-            <li> <a href="https://lemon-town.herokuapp.com" target="_blank">visit</a></li>
-            <li><a href="https://github.com/purplesands/lemontown-frontend" target="_blank">git</a></li>
-            <li><span class="lemonDemo demo">demo</span></li>
-        </ul>
-    <p>
-      <!-- <li class="hoak">hoak</li>
-        <ul class="cleanList">
-          <li>heroku</li>
-          <li>github</li>
-          <li>demo</li>
-        </ul> -->
-    </p>
-    <p>
-      <li>tetrotis</li>
-        <ul class="cleanList">
-          <li> <a href="https://github.com/purplesands/Tetrotis" target="_blank">git</a></li>
-          <li><span class="tetDemo demo">demo</span></li>
-        </ul>
-      </p>
-      <li>hoke</li>
-      <ul class="cleanList">
-        <li> <a href="https://joemullen.info/hoke" target="_blank">visit</a></li>
-        <li> <a href="https://github.com/purplesands/hoke" target="_blank">git</a></li>
-      </ul>
-  </ul>
+    	<div data-grid="grid-column" class="box lemontown">
+    		<h1 class="cat slant">❃lemontown❃</h1>
+          <span class="smaller">abstract chat / journal application <br/> react, redux, websockets, html+css
+            </span>
+            <span><p class="proj1"><a href="https://lemon-town.herokuapp.com" target="_blank">visit</a> |
+          <a href="https://github.com/purplesands/lemontown-frontend" target="_blank">git</a> | <a href="https://www.youtube.com/watch?v=cOYl9kt5umA" target="_blank">video demo</a></span>
+        </span>
+  <!-- <div class="video2"><iframe width="560" height="315" src="https://www.youtube.com/embed/cOYl9kt5umA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
+        </p>
+    	</div>
+      <div data-grid="grid-column2" class="box preview">
+        <h1 class="sel" id="sel">
+        <p class="selp">☜☜☜selected projects☟☟☟</p></h1>
+        <img src="hoke.png" alt="hoke" id="hoke" style="display:none;"></img>
+        <img src="lemontown.png" alt="lemontown" id="lemontown" style="display:none;"></img>
+        <img src="tetrotis.png" alt="tetrotis" id="tetrotis" style="display:none;"></img>
+      </div>
 
-  </div>
-</div>
-<div class="video" id="video">
-</div>
+      <div data-grid="grid-cell" class="box hoke">
+        <h1 class="cat slant">❀hoke❀</h1>
+        <p class="smaller">ambient music generator | javascript</p>
+        <span><p class="proj1"><a href="https://joemullen.info/hoke" target="_blank">visit</a> |
+          <a href="https://github.com/purplesands/hoke" target="_blank">git</a>  </p>
+      </div>
 
+      <div data-grid="grid-cell2"class="box tb tetrotis">
+        <h1 class="cat slant">✵tetrotis✵</h1>
+        <p class="smaller">tetris clone | javascript</p>
+        <span><p class="proj1">
+          <a href="https://github.com/purplesands/Tetrotis" target="_blank">git</a> | <a href="https://www.youtube.com/watch?v=fA6uFaQ50_I" target="_blank">video demo</a>
+      </div>
 
+    	<div data-grid="grid-row" class="box tb foot">
+        <p class="ok">ok</p>
+        <img src="field.png" alt="field" id="field"></img>
+    </main>
   </body>
 </html>
