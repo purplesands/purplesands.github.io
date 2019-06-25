@@ -482,6 +482,14 @@ ul.cleanList{
 .entry{
   grid-column: 1 / -1;
 	grid-row: -1/0;
+}
+
+.link{
+  /* transition:color .5s ease, -webkit-text-stroke .5s ease; */
+}
+
+.link:hover{
+  color:rgba(200,10,0, 1)
 
 }
 /* .foot{
