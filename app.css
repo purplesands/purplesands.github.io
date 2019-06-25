@@ -184,7 +184,7 @@ header {
 }
 
 
-.title:hover{
+.title:hover, .ok:hover{
   -webkit-text-stroke: 1px rgba(255,255,255, 1);
   color:rgba(200,10,0, .8)
 }
@@ -273,11 +273,6 @@ main {
   max-width: 100%;
   max-height:100%;
 }
-.field{
-  max-width:100%;
-  margin-bottom:50em;
-}
-
 
 h1, h2 {
 	margin: 0;
@@ -375,7 +370,7 @@ ul.cleanList{
 .proj1{
   margin:0 auto;
   float: center;
-  font-size:1.7vw;
+  font-size:1.9vw;
   margin-top:.5em;
 }
 
@@ -426,6 +421,10 @@ ul.cleanList{
 #field{
   width:120%;
   margin-left:-2em;
+    height:100%;
+    /* margin-bottom:50em; */
+
+
 }
 .ok{
   margin:0;
@@ -437,7 +436,7 @@ ul.cleanList{
   font-weight: 900;
   /* transform:skewX(35deg); */
   letter-spacing:1em;
-  transition:letter-spacing 1s ease, transform 2s ease;
+  transition:letter-spacing 1s ease, transform 2s ease, color .3s ease, -webkit-text-stroke .3s ease;;
   transform:skewX(-8deg);
 }
 
