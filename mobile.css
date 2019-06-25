@@ -14,7 +14,7 @@
   background-repeat:repeat; */
 }
 .smaller{
-  font-size:2vw;
+  font-size:1.3em;
   margin:0 auto;
 }
 
@@ -51,16 +51,13 @@
 	border-color: rgba(25, 43, 194, 0.8);
   box-shadow: 5px 5px rgba(25, 43, 194, 0.8);
 	grid-column: 2 / 4;
-	grid-row: 1 / 2;
-  overflow:hidden;
-  width:100%;
-  height:100%;
+	grid-row: 1 / 1;
 }
 
 [data-grid='grid-column2'] {
 	border-color: rgba(25, 43, 194, 0.8);
 	grid-column: 4 / 6;
-	grid-row: 1 / 2;
+	grid-row: 1 / 1;
   background-image:url("bkg.png");
   background-size:9% ;
   background-position: -5em;
@@ -102,10 +99,6 @@ main{
   margin: 0;
 }
 
-*{
-  width:100%;
-}
-
 header {
   z-index:100;
   position:fixed;
@@ -145,7 +138,7 @@ header {
   -webkit-text-stroke: 1px black;
   text-align: center;
   font-family:helvetica, serif;
-  font-size:3vw;
+  font-size:1.9em;
   font-weight: 900;
   max-width: 15em;
   /* transform:skewX(35deg); */
@@ -168,7 +161,6 @@ header {
   color:rgba(200,10,0, 1);
   letter-spacing: .3em;
   text-shadow:1px 1px #F9F4F4,2px 2px #F9F4F4,3px 3px #F9F4F4;
-  margin-left: -8vw;
 }
 
 .container:nth-child(odd) {
@@ -200,7 +192,7 @@ header {
   padding-bottom: .3em;
   letter-spacing:12px;
   transform:skew(5deg,-2deg);
-  font-size:2.9vw;
+  font-size:2.2em;
 }
 
 @keyframes shadow {
@@ -219,11 +211,11 @@ header {
 
 .category{
   color:#F9F4F4;
-  font-size:3vw;
+  font-size:2em;
   position:relative;
-  top:-1vw;
+  top:-.5em;
   -webkit-text-stroke: 1px rgba(25, 43, 194, 1);
-  margin:2vw;
+  margin:2em;
   transform:skewX(-5deg);
   transition: text-decoration .5s ease, color .5s ease;
 
@@ -241,9 +233,7 @@ main {
 .box{
   transition: box-shadow 0.5s ease, font-size 2s ease;
   align-items:left;
-  overflow: hidden;
-  width:100%;
-  height:100%;
+
 }
 
 .box:hover{
@@ -316,7 +306,15 @@ a{
   cursor:pointer
 }
 p {
+  cursor:;
 	line-height: 1.5;
+}
+
+strong {
+	display: block;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 footer {
@@ -346,14 +344,13 @@ footer {
   color:#F9F4F4;
   font-family:helvetica;
   letter-spacing: .5em;
-  font-size: 2.1vw;
+  font-size: 1.6em;
   -webkit-text-stroke: 1px rgba(25, 43, 194, 1);
   display: flex;
   flex-wrap:reverse;
   align-items: vertical;
-  height: 100%;
+  max-height: 100%;
   max-width:100%;
-  overflow:hidden;
 }
 .selp{
   transition:color .5s ease;
@@ -375,10 +372,8 @@ ul.cleanList{
 .proj1{
   margin:0 auto;
   float: center;
-  font-size:1.7vw;
-  margin-top:.5em;
+  font-size:1.65em;
 }
-
 
 
 
@@ -433,7 +428,7 @@ ul.cleanList{
   -webkit-text-stroke: 1px black;
   text-align: center;
   font-family:helvetica, serif;
-  font-size:3vw;
+  font-size:1.5em;
   font-weight: 900;
   /* transform:skewX(35deg); */
   letter-spacing:1em;
@@ -467,7 +462,7 @@ ul.cleanList{
   background-repeat:repeat;
   margin-bottom:1em;
   overflow:hidden;
-  max-height: 20vh;
+  max-height: 10em;
   box-shadow:none;
 }
 .goop:hover, [data-grid='grid-row']:hover{
@@ -481,9 +476,7 @@ ul.cleanList{
   font-size:1.2em;
 }
 .bio{
-  margin:.5vw;
-  overflow:auto;
-  font-size:1.8vw;
+  margin:1em
 }
 
 .entry{
